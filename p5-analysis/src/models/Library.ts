@@ -4,7 +4,7 @@ import { Category } from './Category';
 import { Cdn } from './Cdn';
 import { Script } from './Script';
 
-export const p5Version = '1.4';
+export const p5Version = '1.11';
 
 // eslint-disable-next-line @typescript-eslint/no-namespace
 export namespace Library {

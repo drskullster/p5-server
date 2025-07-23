@@ -1,5 +1,23 @@
 [
   {
+    "name": "p5.js-SVG",
+    "description": "SVG runtime for p5.js (using a fork for 1.7+ compatibility)",
+    "homepage": "https://github.com/zenozeng/p5.js-svg",
+    "importPath": "https://cdn.jsdelivr.net/gh/nkymut/p5.js-svg@master/dist/p5.svg.js",
+    "defines": {
+      "globals": ["SVG"]
+    }
+  },
+  {
+    "name": "p5.plotSVG",
+    "description": "SVG runtime for p5.js.",
+    "homepage": "https://github.com/zenozeng/p5.js-svg",
+    "importPath": "https://unpkg.com/p5.plotsvg@0.1.3/lib/p5.plotSvg.js",
+    "defines": {
+      "globals": ["beginRecordSVG", "endRecordSVG", "pauseRecordSVG"]
+    }
+  },
+  {
     "name": "ASCII Art",
     "description": "p5.asciiart is a simple and easy to use image-to-ASCII art converter for p5js.",
     "homepage": "https://www.tetoki.eu/asciiart/",
